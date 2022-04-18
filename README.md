@@ -24,10 +24,10 @@ $ git clone https://github.com/ale-fuentes/SPRING_webflux_tutorial.git
 3. **import Maven project**, with our eclipse, import the project, a execute. (note: for default running in port 8080) 
 
 > **NOTE** <br/>
-> if por 80 are busy, using next command for listing all service in port 8081:
+> if por 8080 are busy, using next command for listing all service in port 8080:
 > 
 > ```
-> netstat -ano | findstr LISTENING | findstr 8081
+> netstat -ano | findstr LISTENING | findstr 8080
 > ```
 > 
 > if are listing, get `PID` and finish it with next command:
